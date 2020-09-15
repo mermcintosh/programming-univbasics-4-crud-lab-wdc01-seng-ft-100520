@@ -33,9 +33,9 @@ end
 retrieve_element_from_index(["apple","banana","peach","blueberry"], 2)
 
 def retrieve_first_element_from_array(array)
-  
+  array[0]
 end
-
+retrieve_first_element_from_array(["apple","banana","peach","blueberry"], 2)
 # def retrieve_last_element_from_array(array)
   
 # end
