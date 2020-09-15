@@ -45,7 +45,6 @@ require "pry"
 # retrieve_last_element_from_array(["apple","banana","peach","blueberry"])
 
 def update_element_from_index(array, index_number, element)
-  binding.pry
 array[index_number] = element
 end
 update_element_from_index(["apple","banana","peach","blueberry"],2, "orange")
