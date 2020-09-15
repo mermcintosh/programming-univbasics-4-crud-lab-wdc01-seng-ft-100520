@@ -17,10 +17,10 @@ def add_element_to_start_of_array(array, element)
 end
 add_element_to_start_of_array(["apple","banana","peach","blueberry"], "orange")
 
-# def remove_element_from_end_of_array(array)
-#   yummy_fruits = array
-#   maru_cat = famous_cats.pop
-# end
+def remove_element_from_end_of_array(array)
+  yummy_fruits = array
+  maru_cat = famous_cats.pop
+end
 
 # def remove_element_from_start_of_array(array)
   
