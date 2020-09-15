@@ -14,6 +14,8 @@ def add_element_to_end_of_array(array, element)
   yummy_fruits<< "pineapple"
 end
 
+add_element_to_end_of_array
+
 def add_element_to_start_of_array(array, element)
   yummy_fruits = ["apple","banana","peach","blueberry"]
   yummy_fruits.unshift("orange")
