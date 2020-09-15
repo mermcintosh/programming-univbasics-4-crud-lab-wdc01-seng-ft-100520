@@ -21,7 +21,7 @@ def remove_element_from_end_of_array(array)
   yummy_fruits = array
   apple_fruit = yummy_fruits.pop
 end
-
+remove_element_from_end_of_array(["apple","banana","peach","blueberry"])
 
 # def remove_element_from_start_of_array(array)
   
