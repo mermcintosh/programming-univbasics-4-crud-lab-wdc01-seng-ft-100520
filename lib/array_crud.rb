@@ -2,14 +2,14 @@ def create_an_empty_array
   [ ]
 end
 
-def create_an_array
+# def create_an_array
   yummy_fruits = ["apple","banana","peach","blueberry"]
-end
+# end
 
-def add_element_to_end_of_array(array, element)
+# def add_element_to_end_of_array(array, element)
   yummy_fruits =["apple","banana","peach","blueberry"]
   yummy_fruits << "pineapple"
-end
+# end
 
 def add_element_to_start_of_array(array, element)
   yummy_fruits = ["apple","banana","peach","blueberry"]
