@@ -12,8 +12,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   yummy_fruits= array
-  binding.pry
   yummy_fruits<< element
+  binding.pry
 end
 add_element_to_end_of_array(["apple","banana","peach","blueberry"], "pineapple")
 
