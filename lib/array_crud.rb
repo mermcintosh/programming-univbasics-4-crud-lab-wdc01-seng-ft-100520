@@ -1,3 +1,5 @@
+require "pry"
+
 # def create_an_empty_array
 #   [ ]
 # end
@@ -44,5 +46,5 @@
 
 def update_element_from_index(array, index_number, element)
 array[index_number] = element
-update_element_from_index(["apple","banana","peach","blueberry"], [2], "orange")
 end
+update_element_from_index(["apple","banana","peach","blueberry"], [2], "orange")
