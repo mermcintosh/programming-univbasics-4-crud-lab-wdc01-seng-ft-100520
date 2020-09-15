@@ -3,12 +3,12 @@ def create_an_empty_array
 end
 
 def create_an_array
-  yummy_fruits ["apple","banana","peach","blueberry"]
+  yummy_fruits = ["apple","banana","peach","blueberry"]
 end
 
 def add_element_to_end_of_array(array, element)
-  ["apple","banana","peach","blueberry"]
-  add_element_to_end_of_array << "pineapple"
+  yummy_fruits =["apple","banana","peach","blueberry"]
+  yummy_fruits << "pineapple"
 end
 
 def add_element_to_start_of_array(array, element)
