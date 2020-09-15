@@ -28,8 +28,9 @@ end
 remove_element_from_start_of_array(["apple","banana","peach","blueberry"])
 
 def retrieve_element_from_index(array, index_number)
-  
+  array[2]
 end
+retrieve_element_from_index(array, index_number)
 
 # def retrieve_first_element_from_array(array)
   
