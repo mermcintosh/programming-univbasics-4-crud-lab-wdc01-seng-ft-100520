@@ -13,18 +13,19 @@ end
 add_element_to_end_of_array(["apple","banana","peach","blueberry"], "pineapple")
 
 def add_element_to_start_of_array(array, element)
-  yummy_fruits = array.unshift(element)
+  array.unshift(element)
 end
 add_element_to_start_of_array(["apple","banana","peach","blueberry"], "orange")
 
 def remove_element_from_end_of_array(array)
-  yummy_fruits = array.pop
+  array.pop
 end
 remove_element_from_end_of_array(["apple","banana","peach","blueberry"])
 
 def remove_element_from_start_of_array(array)
-  
+  array.shift
 end
+remove_element_from_start_of_array(["apple","banana","peach","blueberry"])
 
 # def retrieve_element_from_index(array, index_number)
   
