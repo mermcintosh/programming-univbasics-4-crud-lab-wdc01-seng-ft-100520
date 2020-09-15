@@ -48,4 +48,4 @@ def update_element_from_index(array, index_number, element)
   binding.pry
 array[index_number] = element
 end
-update_element_from_index(["apple","banana","peach","blueberry"], [2], "orange")
+update_element_from_index(["apple","banana","peach","blueberry"],2, "orange")
