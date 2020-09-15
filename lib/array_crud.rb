@@ -15,10 +15,10 @@ end
 add_element_to_end_of_array(["apple","banana","peach","blueberry"], "pineapple")
 
 def add_element_to_start_of_array(array, element)
-  yummy_fruits = ["apple","banana","peach","blueberry"]
-  yummy_fruits.unshift("orange")
+  yummy_fruits = array
+  yummy_fruits.unshift(element)
 end
-add_element_to_start_of_array(["apple","banana","peach","blueberry"], element)
+add_element_to_start_of_array(["apple","banana","peach","blueberry"], "orange")
 
 
 
