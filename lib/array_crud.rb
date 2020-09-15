@@ -37,10 +37,10 @@ def retrieve_first_element_from_array(array)
 end
 retrieve_first_element_from_array(["apple","banana","peach","blueberry"])
 
-# def retrieve_last_element_from_array(array)
-#   array[3]
-# end
-# retrieve_last_element_from_array(["apple","banana","peach","blueberry"])
+def retrieve_last_element_from_array(array)
+  array[3]
+end
+retrieve_last_element_from_array(["apple","banana","peach","blueberry"])
 
 def update_element_from_index(array, index_number, element)
 array[2] = "orange"
