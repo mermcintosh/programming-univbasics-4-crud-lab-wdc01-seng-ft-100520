@@ -1,3 +1,5 @@
+require "pry"
+
 def create_an_empty_array
   [ ]
 end
@@ -8,6 +10,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   yummy_fruits=["apple","banana","peach","blueberry"]
+  binding.pry
   yummy_fruits<< "pineapple"
 end
 
