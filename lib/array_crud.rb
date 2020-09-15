@@ -14,7 +14,7 @@ def add_element_to_end_of_array(array, element)
   yummy_fruits<< "pineapple"
 end
 
-add_element_to_end_of_array
+add_element_to_end_of_array(array, element)
 
 def add_element_to_start_of_array(array, element)
   yummy_fruits = ["apple","banana","peach","blueberry"]
