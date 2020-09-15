@@ -43,6 +43,6 @@ end
 retrieve_last_element_from_array(["apple","banana","peach","blueberry"])
 
 def update_element_from_index(array, index_number, element)
-array[2] = "orange"
+array[2]
 end
 update_element_from_index(["apple","banana","peach","blueberry"], [2], "orange")
