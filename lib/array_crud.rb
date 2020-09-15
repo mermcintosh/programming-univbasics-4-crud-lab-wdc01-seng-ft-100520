@@ -18,14 +18,13 @@ end
 add_element_to_start_of_array(["apple","banana","peach","blueberry"], "orange")
 
 def remove_element_from_end_of_array(array)
-  yummy_fruits = array
-  apple_fruit = yummy_fruits.pop
+  yummy_fruits = array.pop
 end
 remove_element_from_end_of_array(["apple","banana","peach","blueberry"])
 
-# def remove_element_from_start_of_array(array)
+def remove_element_from_start_of_array(array)
   
-# end
+end
 
 # def retrieve_element_from_index(array, index_number)
   
